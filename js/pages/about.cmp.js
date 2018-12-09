@@ -5,7 +5,7 @@ export default {
 
     template: `
     <section class="about-container">
-        <img class="img-profile" src="/img/profile-tom.png">
+        <img class="img-profile" src="/img/profiletom.png">
         <h4 class="about-title">Tom Manger</h4>
         <div class="social-container">
             <a :href="'//' + 'www.linkedin.com/in/tommanger'" target="_blank">
