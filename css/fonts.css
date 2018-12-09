@@ -1,0 +1,8 @@
+@font-face {
+    font-family: fisrt;
+    src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: fisrtBold;
+    src: url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+}

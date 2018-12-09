@@ -1,0 +1,46 @@
+.nav-bar-head{
+    display: flex;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background: #236b61; /* Old browsers */
+    background: -moz-linear-gradient(top, #236b61 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #236b61 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #236b61 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#236b61', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+    margin: 0;
+    color: white;
+}
+.btn-nav-bar{
+    font-size: 45px;
+    color: white;
+}
+
+
+.logo-nav-bar{
+    font-size: 40px;
+    font-family: fantasy;
+    cursor: pointer;
+    margin-left: 23px;
+}
+.nav-bar-links{
+    width: 170px;
+    height: 300px;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0 0 9px 0px black;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+.nav-bar-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar-icon{
+    font-size: 78px;
+}

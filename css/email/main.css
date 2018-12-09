@@ -1,0 +1,410 @@
+*{
+    font-family: fisrt;
+}
+button:focus{
+    outline: none;
+}
+
+.email-list{
+    width: 100%;
+    background-color: black;
+    font-family: fisrt;
+}
+
+.title-email-list{
+    display: flex;
+    padding: 10px;
+    box-shadow: 0 0 2px black;
+    padding-right: 24px;
+    color: white;
+    
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,236b61+100 */
+    background: #0e0e0e; /* Old browsers */
+    background: -moz-linear-gradient(left, #0e0e0e 0%, #236b61 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #0e0e0e 0%,#236b61 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #0e0e0e 0%,#236b61 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#236b61',GradientType=1 ); /* IE6-9 */
+
+}
+.title-email-list:hover{
+    box-shadow: inset 0 0 15px white;
+    cursor: pointer;
+}
+.btn-delete{
+    color: rgb(156, 156, 156);
+    font-size: 20px;
+}
+.btn-delete:hover{
+    color: white;
+}
+.btn-delete:focus{
+    outline: none;
+}
+.title-email-item{
+    margin-right: 35px;
+}
+.subject-list{
+    flex: 1
+}
+.from-list{
+    flex: 0 0 100px;
+    font-family: fisrtBold;
+}
+.text-email-list{
+    display: flex;
+    flex: 1;    
+    align-items: center;
+}
+.btns-list{
+   display: flex; 
+}
+
+
+.readEmail{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#236b61+0,0e0e0e+100 */
+    background: #236b61; /* Old browsers */
+    background: -moz-linear-gradient(left, #236b61 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #236b61 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #236b61 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#236b61', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 */
+}
+
+.nav-bar-email{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#236b61+0,0e0e0e+100 */
+    background: #236b61; /* Old browsers */
+    background: -moz-linear-gradient(top, #236b61 0%, #0e0e0e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #236b61 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #236b61 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#236b61', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+}
+
+.email-container{
+    display: flex;
+}
+.manu-email{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 10px;
+    align-items: center;
+    padding: 20px;
+    padding-left: 0;
+    height: 512px;
+ 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,236b61+100 */
+    background: #0e0e0e; /* Old browsers */
+    background: -moz-linear-gradient(top, #0e0e0e 0%, #236b61 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0e0e0e 0%,#236b61 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0e0e0e 0%,#236b61 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#236b61',GradientType=0 ); /* IE6-9 */
+}
+
+  
+  
+
+.select-btn{
+    border: 0;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.btn-manu-email{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 31px;
+    width: 100%;
+    text-align: start;
+    color: white;
+
+}
+.btn-manu-email:focus{
+    outline: none;
+    
+}
+.btn-manu-email:hover{
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(46, 46, 46);
+}
+.btn-send-email{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 5px black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 21px;
+    color: #236B61;
+    font-family: fantasy;
+}
+.btn-send-email:hover{
+    box-shadow: inset 0px 2px 30px #236B61;
+}
+.btn-send-email:focus{
+    outline: none;
+}
+.title-header-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+0,236b61+99 */
+    background: #0e0e0e; /* Old browsers */
+    background: -moz-linear-gradient(top, #0e0e0e 0%, #236b61 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0e0e0e 0%,#236b61 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0e0e0e 0%,#236b61 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#236b61',GradientType=0 ); /* IE6-9 */
+}
+.subject-email-det{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+    color: white;
+}
+.header-email-det{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    font-family: fisrt;
+}
+.body-det{
+    margin-top: 30px;
+    width: 90%;
+    text-align: center;
+    color: white;
+    word-break: break-all;
+    overflow: overlay;
+    max-height: 400px;
+    font-family: fisrt;
+}
+.filter-emails{
+    width: 100%;
+    height: 40px;
+    border-radius: 34px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #236b61;
+    border: none;
+}
+.filter-emails:focus{
+    outline: none;
+}
+.email-send-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-details-container{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.btns-header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e0e0e;
+    margin-bottom: 10px;
+}
+.btns-header:focus{
+    outline: none;
+}
+.title-send-email{
+    color: white;
+}
+.btn-det{
+    font-weight: bold;
+    margin-left: 21px;
+    font-family: fisrt;
+}
+.star{
+    color: rgb(255, 217, 0);
+    text-shadow: 0 0 8px black;
+}
+
+
+.air-send-btn{
+    margin-right: 25px;
+}
+
+.container-list{
+    width: 100%;
+    margin-right: 10px;
+    max-height: 555px;
+    overflow: overlay;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: none; 
+}
+
+.send-email-container{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.center-send-title{
+    justify-content: center;
+}
+.txt-send-email{
+    color: white;
+    margin-top: 10px;
+}
+.input-sent-email{
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 3px;
+    font-weight: bold;
+    border: none;
+}
+.input-border-send{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.body-send-email{
+    width: 90%;
+    height: 73%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+}
+.btn-submit-email{
+    position: relative;
+    top: -35px;
+    border-radius: 26px;
+    width: 100px;
+    height: 30px;
+    color: white;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0e0e+1,236b61+99 */
+    background: #0e0e0e; /* Old browsers */
+    background: -moz-linear-gradient(top, #0e0e0e 1%, #236b61 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #0e0e0e 1%,#236b61 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #0e0e0e 1%,#236b61 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#236b61',GradientType=0 ); /* IE6-9 */
+}
+.btn-submit-email:hover{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#236b61+1,0e0e0e+99 */
+    background: #236b61; /* Old browsers */
+    background: -moz-linear-gradient(top, #236b61 1%, #0e0e0e 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #236b61 1%,#0e0e0e 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #236b61 1%,#0e0e0e 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#236b61', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+    cursor: pointer;
+}
+
+.toggel-menu-btn{
+    display: none;
+}
+
+.hide{
+    display: block;
+}
+
+@media only screen and (max-width: 660px) {
+    .toggel-menu-btn{
+        display: block;
+        background-color: white;
+        height: 50px;
+        width: 57px;
+        border-radius: 30px;
+        box-shadow: 0px 2px 5px black;
+        font-size: 25px;
+        margin-left: 21px;
+        color: #236B61;
+        font-family: fantasy;
+        position: absolute;
+        left: -4px;
+        top: 16px;
+    }
+    .toggel-menu-btn:focus{
+        outline: none;
+    }
+    .toggel-menu-btn:hover{
+        box-shadow: inset 0px 2px 30px #236B61;
+
+    }
+    .hide{
+        display: none;
+    }
+    .from-list {
+        flex: 0 0 0;
+    }
+    .container-list{
+        margin-left: 10px;
+    }
+    .title-email-item {
+        margin-top: 10px;
+    }
+    .date-list{
+        margin-bottom: 10px;
+    }
+    .manu-email{
+        position: absolute;
+    }
+    .text-email-list{
+        flex-direction: column;    
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .title-email-list{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .title-email-item {
+        margin-right: 0;
+    }
+}
+
+
+.width-enter-active{
+    transition: width .3s;
+  }
+  .width-enter{
+    width: 0;
+  }
+
+.width-leave-active {
+    transition: width .3s;
+  }
+.width-leave-to{
+    width: 0;
+
+}
